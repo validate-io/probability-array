@@ -22,7 +22,7 @@ var isProbabilityArray = require( 'validate.io-probability-array' );
 
 #### isProbabilityArray( value )
 
-Validates if a `value` is an `array` of positive `number` primitives, __excluding__ NaN, whic sum to one.
+Validates if a `value` is an `array` of positive `number` primitives, __excluding__ NaN, which sum to one.
 
 ``` javascript
 var probs = [ 0.25, 0.25, 0.3, 0.2 ];
