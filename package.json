@@ -1,0 +1,52 @@
+{
+  "name": "validate.io-probability-array",
+  "version": "0.0.0",
+  "description": "Validates if a value is an array of non-negative number primitives summing to one.",
+  "author": {
+    "name": "Philipp Burckhardt",
+    "email": "pburckhardt@outlook.com"
+  },
+  "contributors": [
+    {
+      "name": "Philipp Burckhardt",
+      "email": "pburckhardt@outlook.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
+    "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/validate-io/probability-array.git"
+  },
+  "keywords": [
+    "validate.io",
+    "validate",
+    "validation",
+    "validator",
+    "valid",
+    "probability",
+    "probabilities",
+    "is",
+    "isvalid"
+  ],
+  "bugs": {
+    "url": "https://github.com/validate-io/probability-array/issues"
+  },
+  "dependencies": {
+    "validate.io-array": "^1.0.6",
+    "validate.io-typed-array-like": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.x.x",
+    "codecov.io": "^0.1.5",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x"
+  },
+  "license": "MIT"
+}
