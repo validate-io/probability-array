@@ -42,8 +42,8 @@ describe( 'validate.io-probability-array', function tests() {
 			{},
 			[1, new Number(1)],
 			['1','2','3'],
-      [ 1, 2, 3 ],
-      [ -0.5, 0.5 ],
+			[ 1, 2, 3 ],
+			[ -0.5, 0.5 ],
 			[ NaN ]
 		];
 
