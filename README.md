@@ -101,7 +101,7 @@ $ make view-cov
 
 ## Copyright
 
-Copyright &copy; 2015. Athan Reines.
+Copyright &copy; 2015-2016. Philipp Burckhardt
 
 
 [npm-image]: http://img.shields.io/npm/v/validate.io-probability-array.svg
