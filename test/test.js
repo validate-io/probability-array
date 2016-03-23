@@ -3,11 +3,8 @@
 
 // MODULES //
 
-var // Expectation library:
-	chai = require( 'chai' ),
-
-	// Module to be tested:
-	isProbabilityArray = require( './../lib' );
+var chai = require( 'chai' );
+var isProbabilityArray = require( './../lib' );
 
 
 // VARIABLES //
