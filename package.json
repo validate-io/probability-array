@@ -37,6 +37,8 @@
     "url": "https://github.com/validate-io/probability-array/issues"
   },
   "dependencies": {
+    "const-eps-float64": "^1.0.0",
+    "math-abs": "^1.0.2",
     "validate.io-array": "^1.0.6",
     "validate.io-typed-array-like": "^1.0.0"
   },
