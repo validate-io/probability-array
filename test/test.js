@@ -26,6 +26,11 @@ describe( 'validate.io-probability-array', function tests() {
 		assert.ok( bool );
 	});
 
+	it( 'should positively validate even when due to floating-point errors the sum of the values is not equal to one', function test() {
+		var bool = isProbabilityArray( [ 0.1, 0.2, 0.1, 0.1, 0.2, 0.2, 0.1 ] );
+		assert.ok( bool );
+	});
+
 	it( 'should negatively validate', function test() {
 		var values = [
 			5,
